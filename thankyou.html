@@ -2,47 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thank You!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bestus Ka Hisaab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      background: #e6f7ff;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    .container {
-      background: #fff;
+      background-color: #ffe6f0;
+      font-family: 'Inter', sans-serif;
+      color: #3a3a3a;
       padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      max-width: 320px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
     h1 {
-      color: #66b3ff;
-      margin-bottom: 1rem;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      color: #d63384;
     }
-    p {
-      font-size: 1rem;
-      color: #444;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
     }
-    .emoji {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+    th, td {
+      padding: 0.75rem;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+    }
+    .total {
+      font-weight: 600;
+      color: #d63384;
+    }
+    .section-title {
+      margin-top: 2rem;
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: '💖';
+      margin-right: 0.5rem;
+    }
+    .note {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #6c757d;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="emoji">🎉</div>
-    <h1>Thank You!</h1>
-    <p>Your payment has been received.</p>
-    <p>Have a wonderful day! 🌸</p>
-  </div>
+  <h1>🧾 Invoice of Friendship & Fun</h1>
+  <p><strong>Billed To:</strong> <span style="color:#d63384">hisaabpaglu</span> (aka Demon)</p>
+  <p><strong>Date:</strong> 5th April 2025</p>
+  <p><strong>Due Date:</strong> Never—but I’m logging everything. </p>
+
+  <table>
+    <tr><th>Item</th><th>Price (₹)</th></tr>
+    <tr><td>Hate Sessions</td><td>30</td></tr>
+    <tr><td>Rants listenin</td><td>FREE</td></tr>
+    <tr><td>Watchin ur every reel</td><td>20</td></tr>
+    <tr><td>Tolerating Your “kya?” every 2 mins</td><td>18</td></tr>
+    <tr><td>Remembering Random-Ass Classmates for Tea</td><td>10</td></tr>
+    <tr><td>Tolerating Your “No”s That Are Only for Me</td><td>14</td></tr>
+    <tr><td>Salary for My Minion (That I Use to Stalk You)</td><td>14</td></tr>
+    <tr><td>Bestie Discount</td><td>-40</td></tr>
+    <tr><td>Bonus Charge: For Being Adorably Annoying</td><td>40</td></tr>
+    <tr class="total"><td>Total</td><td>₹128</td></tr>
+  </table>
+
+  <p class="section-title">Accepted Payment Methods:</p>
+  <ul>
+    <li>1 tight hug </li>
+    <li>1 treat</li>
+    <li>Admitting that I’m the superior bestie</li>
+  </ul>
+
+  <p class="section-title">Note:</p>
+  <ul>
+    <li>No Hate Sessions.</li>
+    <li>A cute minion losing his job (and possibly unaliving himself in your window shaft)</li>
+    <li>No reel spam.</li>
+  </ul>
+
+  <p class="note">Thanks for green wale kharbooj</p>
 </body>
 </html>
